@@ -9,11 +9,11 @@ if (awsCredentialId == null) {
 }
 
 // Sagemaker Project specific details
-def sagemakerProjectName = "jenkins-btd-1"
-def sagemakerProjectId = "p-hdzaivmsdryg"
-def sagemakerPipelineExecutionRole = "arn:aws:iam::426907972901:role/service-role/AmazonSageMakerServiceCatalogProductsUseRole"
-def awsRegion = "us-east-2"
-def artifactBucket = "sagemaker-project-p-hdzaivmsdryg"
+def sagemakerProjectName = "jenkins-project4"
+def sagemakerProjectId = "p-9bbltflz7xk9"
+def sagemakerPipelineExecutionRole = "arn:aws:iam::708488536029:role/jenkins_role"
+def awsRegion = "ap-northeast-2"
+def artifactBucket = "sagemaker-project-p-9bbltflz7xk9"
 
 def pipelineName = "sagemaker-" + sagemakerProjectName + "-" + sagemakerProjectId + "-modelbuild"
 
